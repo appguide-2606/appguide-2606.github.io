@@ -1,29 +1,89 @@
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>無料デスクトップアプリ図鑑</title>
+
+<style>
+body{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+    font-family:sans-serif;
+    background:#f5f7fa;
+    line-height:1.8;
+}
+
+header{
+    text-align:center;
+    padding:30px 20px;
+}
+
+h1{
+    margin-bottom:10px;
+}
+
+.description{
+    color:#555;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin-bottom:15px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card a{
+    text-decoration:none;
+    color:#0066cc;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.card p{
+    margin-top:10px;
+    color:#666;
+}
+
+footer{
+    text-align:center;
+    margin-top:40px;
+    color:#777;
+    font-size:14px;
+}
+</style>
+
 </head>
 
-<body style="max-width:800px;
-margin:auto;
-padding:20px;
-font-family:sans-serif;">
+<body>
 
+<header>
 <h1>無料デスクトップアプリ図鑑</h1>
 
-<p>
-仕事や勉強に使える無料デスクトップアプリを紹介しています。
+<p class="description">
+仕事や勉強、趣味に役立つ無料デスクトップアプリを紹介しています。
+実際に使った感想を交えながらレビューしています。
 </p>
+</header>
 
-<h2>掲載アプリ</h2>
+<div class="card">
+<a href="apps/everything.html">Everything</a>
+<p>Windows向け高速ファイル検索ソフト</p>
+</div>
 
-<ul>
-<li><a href="apps/everything.html">Everything</a></li>
-<li><a href="apps/vlc.html">VLC Media Player</a></li>
-<li>OBS Studio</li>
-</ul>
+<div class="card">
+<a href="apps/vlc.html">VLC Media Player</a>
+<p>無料で使える定番動画・音楽プレイヤー</p>
+</div>
+
+<footer>
+<p>© 2026 無料デスクトップアプリ図鑑</p>
+</footer>
 
 </body>
 </html>
+```
