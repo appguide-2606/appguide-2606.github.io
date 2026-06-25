@@ -17,27 +17,22 @@ body{
 
 header{
     text-align:center;
-    padding:30px 20px;
-}
-
-h1{
-    margin-bottom:10px;
-}
-
-h2{
-    margin-top:35px;
-    padding-bottom:8px;
-    border-bottom:2px solid #ddd;
+    margin-bottom:30px;
 }
 
 .description{
-    color:#555;
+    color:#666;
+}
+
+.count{
+    font-weight:bold;
+    margin-top:10px;
 }
 
 .card{
     background:white;
-    padding:20px;
-    margin-bottom:15px;
+    padding:15px;
+    margin-bottom:12px;
     border-radius:10px;
     box-shadow:0 2px 8px rgba(0,0,0,0.08);
 }
@@ -45,13 +40,35 @@ h2{
 .card a{
     text-decoration:none;
     color:#0066cc;
-    font-size:20px;
+    font-size:18px;
     font-weight:bold;
 }
 
 .card p{
-    margin-top:10px;
+    margin:5px 0 0 0;
     color:#666;
+}
+
+h2{
+    margin-top:35px;
+    border-bottom:2px solid #ddd;
+    padding-bottom:5px;
+}
+
+.category ul{
+    background:white;
+    padding:15px 15px 15px 35px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+.category li{
+    margin:8px 0;
+}
+
+.category a{
+    text-decoration:none;
+    color:#0066cc;
 }
 
 footer{
@@ -61,7 +78,6 @@ footer{
     font-size:14px;
 }
 </style>
-
 </head>
 
 <body>
@@ -70,59 +86,67 @@ footer{
 <h1>無料デスクトップアプリ図鑑</h1>
 
 <p class="description">
-仕事や勉強、趣味に役立つ無料デスクトップアプリを紹介しています。<br>実際に使った感想を交えながらレビューしています。
+仕事や勉強に役立つ無料デスクトップアプリを紹介しています。
+実際に使った感想を交えながらレビューしています。
+</p>
+
+<p class="count">
+掲載アプリ数：7本
 </p>
 </header>
 
-<h2>📁 ファイル管理</h2>
+<h2>⭐ おすすめアプリ</h2>
 
 <div class="card">
 <a href="apps/everything.html">Everything</a>
-<p>Windows向け高速ファイル検索ソフト</p>
+<p>高速ファイル検索の定番ソフト</p>
 </div>
-
-
-<h2>🎬 メディア再生</h2>
-
-<div class="card">
-<a href="apps/vlc.html">VLC Media Player</a>
-<p>無料で使える定番動画・音楽プレイヤー</p>
-</div>
-
-
-<h2>📹 配信・録画</h2>
-
-<div class="card">
-<a href="apps/obs.html">OBS Studio</a>
-<p>無料で使える録画・ライブ配信ソフト</p>
-</div>
-
-
-<h2>📸 スクリーンショット</h2>
 
 <div class="card">
 <a href="apps/sharex.html">ShareX</a>
-<p>無料で使える高機能スクリーンショットツール</p>
+<p>高機能スクリーンショットツール</p>
 </div>
-
-
-<h2>🎤 音声編集</h2>
-
-<div class="card">
-<a href="apps/audacity.html">Audacity</a>
-<p>無料で使える定番音声編集ソフト</p>
-</div>
-
-<h2>📚 学習・勉強</h2>
 
 <div class="card">
 <a href="apps/anki.html">Anki</a>
-<p>効率的な暗記学習ができる無料フラッシュカードソフト</p>
+<p>効率的な暗記学習ソフト</p>
 </div>
 
-<div class="card"> 
-<a href="apps/obsidian.html">Obsidian</a> 
-<p>知識やアイデアを整理できる高機能ノートアプリ</p> 
+<h2>📚 アプリ一覧</h2>
+
+<div class="category">
+
+<h3>📁 ファイル管理</h3>
+<ul>
+<li><a href="apps/everything.html">Everything</a></li>
+</ul>
+
+<h3>🎬 メディア再生</h3>
+<ul>
+<li><a href="apps/vlc.html">VLC Media Player</a></li>
+</ul>
+
+<h3>📹 配信・録画</h3>
+<ul>
+<li><a href="apps/obs.html">OBS Studio</a></li>
+</ul>
+
+<h3>📸 スクリーンショット</h3>
+<ul>
+<li><a href="apps/sharex.html">ShareX</a></li>
+</ul>
+
+<h3>🎤 音声編集</h3>
+<ul>
+<li><a href="apps/audacity.html">Audacity</a></li>
+</ul>
+
+<h3>📚 学習・勉強</h3>
+<ul>
+<li><a href="apps/anki.html">Anki</a></li>
+<li><a href="apps/obsidian.html">Obsidian</a></li>
+</ul>
+
 </div>
 
 <footer>
